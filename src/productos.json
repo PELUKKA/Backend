@@ -1,0 +1,57 @@
+[
+    {
+    "id": 1,
+    "title": "Remera ",
+    "price": 22.3
+    
+    
+    },
+    {
+    "id": 2,
+    "title": "Campera",
+    "price": 55.99
+    },
+    {
+    "id": 3,
+    "title": "Polera",
+    "price": 15.99
+    
+    },
+    {
+    "id": 4,
+    "title": "Brazal",
+    "price": 695
+    
+    },
+    {
+    "id": 5,
+    "title": "Anillo",
+    "price": 168
+    },
+    {
+    "id": 6,
+    "title": "Anillo con Diamante",
+    "price": 9.99
+    },
+    {
+    "id": 7,
+    "title": "WD 2TB Disco Externo - USB 3.0 ",
+    "price": 64
+    },
+    {
+    "id": 8,
+    "title": "Disco Solido SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+    "price": 109
+    },
+    {
+    "id": 9,
+    "title": "Disco Solido  Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+    "price": 109
+    },
+    {
+    "id": 10,
+    "title": "WD 4TB Disco Solido Playstation 4 Portable External Hard Drive",
+    "price": 114
+    }
+    
+    ]

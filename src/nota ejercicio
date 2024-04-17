@@ -1,0 +1,28 @@
+*servidor con express
+
+*consigna:
+
+Desarrollar un servidor basdado en express 
+donde podamos hacer consultas a nuestro archivo de productos.
+
+
+
+*Aspectos a incluir:
+
+º-Se debe utilixar la clase productManager que actualmente utilizamos como persistencia 
+de archivo.
+º-Desarrollar un servidos express que,en su archivo app.js importe al archivo de productmanager que actual mente tenemos.
+º-El servidor debe contar con los siguientes endpoints:
+    ruta'/productos',la cual debe leer el archivo de productos y devolverlos dentro de un objeto.Agregar el soporte para resibir por query param el valor?limit=el cual recibira un 
+    limite de resultados.
+-Si no se recibe query de limite ,se devolvera todos los productos.
+-Si se recibe un limite, solo devolvera el numero de producto solicitados
+
+º-ruta'/products/:pid/,la cual debe recibir por req.params el pid (product ID),y devolver solo el producto solicitado en lugar de  todos los productos.
+
+
+Sugerencias:
+
+Tu clase lee archivos con promesa.
+recuerda usar async/await en tus endpoints.
+utiliza un archivo que ya tenga productos ,pues el desafio solo es para gets
